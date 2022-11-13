@@ -4,7 +4,7 @@
 #include <array>
 
 #ifdef OPENAL
-#include <AL\al.h>
+#include <AL/al.h>
 #endif
 
 class SoundSource {

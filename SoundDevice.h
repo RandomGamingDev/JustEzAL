@@ -2,8 +2,8 @@
 #define SOUND_DEVICE_HEADER
 
 #ifdef OPENAL
-#include <AL\al.h>
-#include <AL\alc.h>
+#include <AL/al.h>
+#include <AL/alc.h>
 #endif
 
 #include <iostream>
