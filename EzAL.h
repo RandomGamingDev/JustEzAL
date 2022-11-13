@@ -2,6 +2,6 @@
 #define EZAL_HEADER
 
 #include "ALlibs.h"
-#include "EzALLibs.h"
+#include "EzALlibs.h"
 
 #endif
