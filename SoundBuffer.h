@@ -18,7 +18,7 @@ struct SoundData {
 	ALsizei size;
 	ALsizei freq;
 
-	SoundData(ALenum format = (ALenum)nullptr, short* data = nullptr, ALsizei size = (ALsizei)nullptr, ALsizei freq = (ALsizei)nullptr) {
+	SoundData(ALenum format = (ALenum)NULL, short* data = nullptr, ALsizei size = 0, ALsizei freq = 0) {
 		this->format = format;
 		this->data = data;
 		this->size = size;
