@@ -6,7 +6,7 @@
 #endif
 
 #include <iostream>
-
+#include <climits>
 #include <sndfile.h>
 #include <inttypes.h>
 #include <array>
